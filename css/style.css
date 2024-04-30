@@ -21,12 +21,13 @@ a {
 }
 
 .header-logo { 
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5; 
     font-family: "Releway", sans-serif;
 }
 
@@ -36,7 +37,7 @@ a {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
     font-family: "Releway", sans-serif;
 }
 
@@ -66,12 +67,18 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     color: inherit;
+
 }
 
 .header-menu-link:hover, 
 .header-menu-link:focus {
     color: #404bbf;
 }
+
+.header-menu-adress {
+    font-style: normal;
+}
+
 
 .header-soc-list { 
 }
@@ -80,6 +87,9 @@ a {
 }
 
 .header-soc-link {
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 /* MAIN */
