@@ -13,9 +13,13 @@ a {
 
 /* HEADER */
 .header {
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
+
 .header-nav {
 }
+
 .header-logo { 
     font-weight: 700;
     font-size: 18px;
@@ -23,6 +27,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    font-family: "Releway", sans-serif;
 }
 
 .header-logo-span {
@@ -31,7 +36,9 @@ a {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;}
+    color: #4d5ae5;
+    font-family: "Releway", sans-serif;
+}
 
 .header-menu-list {
 }
@@ -82,8 +89,6 @@ a {
 /* advantages */
 .main-section-title {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .main-title {
@@ -142,8 +147,6 @@ a {
 /* OUR TEAM */
 .main-section-our-team {
     background: #f4f4fd;
-    width: 1440px;
-    height: 732px;
 }
 .main-title-our-team {
     font-weight: 700;
@@ -159,8 +162,6 @@ a {
 .our-team-item {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
     background: #fff;
 }
 .our-team-item-img {
@@ -184,8 +185,6 @@ a {
 /* Our Portfolio */
 
 .main-section-our-portfolio {
-    width: 1128px;
-    height: 1000px;
 }
 .main-title-our-portfolio {
     font-weight: 700;
@@ -200,12 +199,8 @@ a {
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    width: 360px;
-    height: 120px;
 }
 .our-portfolio-item {
-    width: 360px;
-    height: 420px;
     background: #fff;
 }
 .our-portfolio-item-img {
@@ -229,14 +224,10 @@ a {
 
 /* FOOTER */
 .footer {
-    width: 1440px;
-    height: 312px;
     background: #2e2f42;
 }
 
 .footer-link {
-    width: 115px;
-    height: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -259,6 +250,4 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    width: 264px;
-    height: 112px;
 }
