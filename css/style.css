@@ -32,6 +32,7 @@ a {
 }
 
 .header-logo-span {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -90,6 +91,15 @@ a {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-soc-link:hover {
+    color:#404bbf;
+}
+
+.header-soc-link:focus {
+    color:#404bbf;
 }
 
 /* MAIN */
