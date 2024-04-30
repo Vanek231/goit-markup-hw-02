@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif; 
+    color: #434455;
+    background-color:  #FFFFFF;
 }
 
 ul {
@@ -13,8 +15,6 @@ a {
 
 /* HEADER */
 .header {
-    padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -122,13 +122,16 @@ a {
 
 .main-order-studio {
 }
+
 .main-title-advantages {
-    display: none;
 }
+
 .advantages-list {
 }
+
 .advantages-item {
 }
+
 .advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -160,8 +163,6 @@ a {
 .our-team-list {
 }
 .our-team-item {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     background: #fff;
 }
 .our-team-item-img {
@@ -195,10 +196,8 @@ a {
     color: #2e2f42; 
 }
 .our-portfolio-list {
-    border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding: 32px 16px;
 }
 .our-portfolio-item {
     background: #fff;
