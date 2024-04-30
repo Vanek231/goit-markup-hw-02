@@ -123,6 +123,7 @@ a {
     margin-left: auto; 
 }
 .main-action-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -134,7 +135,8 @@ a {
     margin-left: auto;
 }
 
-.main-action-button:active {
+.main-action-button:hover,
+.main-action-button:focus {
     background: #404bbf;
 }
 
@@ -170,13 +172,12 @@ a {
     background: #f4f4fd;
 }
 .main-title-our-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
 }
 .our-team-list {
 }
