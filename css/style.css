@@ -12,7 +12,15 @@ a {
     text-decoration: none;
 }
 
-.logo { 
+
+/* HEADER */
+.header {
+}
+
+.header-nav {
+}
+
+.header-logo { 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -23,7 +31,7 @@ a {
     font-family: "Releway", sans-serif;
 }
 
-.logo-span {
+.header-logo-span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -32,13 +40,6 @@ a {
     text-transform: uppercase;
     color: #2e2f42;
     font-family: "Releway", sans-serif;
-}
-
-/* HEADER */
-.header {
-}
-
-.header-nav {
 }
 
 .header-menu-list {
@@ -143,6 +144,10 @@ a {
 }
 
 .main-title-advantages {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .advantages-list {
@@ -209,11 +214,10 @@ a {
 .main-title-our-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42; 
-    text-transform: capitalize;
 }
 .our-portfolio-list {
     border-left: 1px solid #e7e9fc;
