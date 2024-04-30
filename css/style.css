@@ -28,7 +28,6 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5; 
-    font-family: "Releway", sans-serif;
 }
 
 .header-logo-span {
@@ -38,7 +37,6 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-    font-family: "Releway", sans-serif;
 }
 
 .header-menu-list {
